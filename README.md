@@ -8,7 +8,7 @@
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/5f2e8bfc-2db8-41b7-a655-8b087569edde" />
 
-## Installation
+# Installation
 
 Follow these steps to install quteFF:
 * [Basic Setup](#basic-setup) - Enable customization and add CSS
