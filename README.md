@@ -26,7 +26,7 @@
 
 <details>
 <summary>Expand for full changelog</summary>
-
+<br>
 A comparison of changes between the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) and quteFF CSS.
 
 ## Navigation Bar Changes
