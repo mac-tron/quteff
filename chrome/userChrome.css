@@ -1,20 +1,17 @@
-/* Hawtbrowser: custom style sheet to make Firefox look similar
- * to Qutebrowser, by Ian LeCorbeau. This is meant to be used with
- * the Vimium-ff add-on.
- *
- * Extra credits to MyOtherGuy and lr-tech.
+/* quteFF \
+ * A qutebrowser-like fork of https://github.com/IanLeCorbeau/hawtbrowser/blob/main/chrome/userChrome.css
  * */
 
 :root {
-	--uc-bottom-toolbar-height: 20px !important;	/* Height of tool bar/url bar */
-	--tab-block-margin: 0 !important;
-	--tab-border-radius: 0 !important;
-	--tab-min-height: 20px !important;		/* Height of tab bar */
+    --uc-bottom-toolbar-height: 20px !important;    /* Height of tool bar/url bar */
+    --tab-block-margin: 0 !important;
+    --tab-border-radius: 0 !important;
+    --tab-min-height: 20px !important;      /* Height of tab bar */
 }
 
 #browser,
 #customization-container {
-	margin-bottom: var(--uc-bottom-toolbar-height,0px)
+    margin-bottom: var(--uc-bottom-toolbar-height,0px)
 }
 
 /* Nav bar */
@@ -34,164 +31,209 @@
 #navigator-toolbox .tab-close-button,
 #navigator-toolbox #pageActionSeparator,
 #navigator-toolbox #pageActionButton {
-	display: none !important;
+    display: none !important;
 }
 
 /* Nav bar */
 
 #navigator-toolbox {
-	border: 0px !important;
-	max-height: 20px !important;
+    border: 0px !important;
+    max-height: 20px !important;
 }
 
 #nav-bar {
-	background: none !important;
-	box-shadow: none !important;
-	position: fixed !important;
-	bottom: 0px !important;
-	display: -webkit-box;
-	height: var(--uc-bottom-toolbar-height) !important;
-	width: 100% !important;
-	z-index: 1;
+    background: none !important;
+    box-shadow: none !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    display: -webkit-box;
+    height: var(--uc-bottom-toolbar-height) !important;
+    max-height: var(--uc-bottom-toolbar-height) !important;
+    width: 100% !important;
+    z-index: 1;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
+/* Toolbar buttons and icons */
 #nav-bar .toolbarbutton-icon {
-	width: 20px !important;
-	padding-left: 2px !important;
-	padding-right: 2px !important;
-	margin: -5px 0px 0px 0px !important;
+    width: 20px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    margin: -5px 0px 0px 0px !important;
+    object-fit: contain !important;
+    aspect-ratio: 1 !important;
 }
 
 #nav-bar .toolbarbutton-badge {
-	margin-inline-end: 0 !important;
-	padding: 0px 1px 1px 0px !important;
-	min-width: 6px !important;
+    margin-inline-end: 0 !important;
+    padding: 0px 1px 1px 0px !important;
+    min-width: 6px !important;
 }
 
+#nav-bar toolbarbutton {
+    padding: 0 !important;
+    margin: 0 1px !important;
+    height: var(--uc-bottom-toolbar-height) !important;
+    max-height: var(--uc-bottom-toolbar-height) !important;
+    aspect-ratio: 1 !important;
+}
+
+/* Extension styling */
+.webextension-browser-action {
+    filter: grayscale(100%) brightness(0.8) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 16px !important;
+    height: 16px !important;
+    aspect-ratio: 1 !important;
+}
+
+.webextension-browser-action .toolbarbutton-icon {
+    width: 12px !important;
+    height: 12px !important;
+    padding: 0 !important;
+    margin: 0 2px !important;
+    aspect-ratio: 1 !important;
+    object-fit: contain !important;
+}
+
+#unified-extensions-area {
+    display: flex !important;
+    align-items: center !important;
+    height: var(--uc-bottom-toolbar-height) !important;
+    gap: 2px !important;
+}
+
+#unified-extensions-button .toolbarbutton-icon {
+    filter: grayscale(100%) brightness(0.8) !important;
+}
+
+/* Special buttons */
 #nav-bar-overflow-button {
-	margin: 3px 0px 0px !important;
-	min-height: 25px !important;
-	padding: 0px 0px 5px 0px !important;
+    margin: 3px 0px 0px !important;
+    min-height: var(--uc-bottom-toolbar-height) !important;
+    max-height: var(--uc-bottom-toolbar-height) !important;
+    padding: 0 !important;
 }
 
 #PanelUI-button {
-	display: block !important;
-	margin: 0px 0px 0px 0px !important;
-	border-left: none !important;
+    display: block !important;
+    margin: 0 !important;
+    border-left: none !important;
 }
 
 #PanelUI-menu-button {
-	padding-left: 0 !important;
-	padding-right: 1px !important;
+    padding-left: 0 !important;
+    padding-right: 1px !important;
 }
 
 #nav-bar-customization-target {
-	-webkit-box-flex: 5;
+    -webkit-box-flex: 5;
 }
 
 /* Tabs */
-
 .tabbrowser-tab {
-	border: none !important;
-	height: var(--tab-min-height) !important;
-	font-size: 15px !important;
+    border: none !important;
+    height: var(--tab-min-height) !important;
+    font-size: 15px !important;
 }
 
 .tabbrowser-tab[selected] {
-	border: none !important;
-	height: var(--tab-min-height) !important;
-	font-size: 12px !important;
-	background-color: #242424 !important;
+    border: 1px solid #B933E1 !important;
+    border-bottom: none !important;
+    height: var(--tab-min-height) !important;
+    font-size: 12px !important;
+    background-color: #000000 !important;
 }
 
 .tabbrowser-tab[fadein]:not([pinned]) {
-	max-width: 100vw !important;
-	padding-left: 0 !important;
-	padding-inline: 0px !important;
+    max-width: 100vw !important;
+    padding-left: 0 !important;
+    padding-inline: 0px !important;
 }
 
 .tabbrowser-tab::after {
-	visibility: hidden !important;
+    visibility: hidden !important;
 }
 
 .tab-line[selected="true"] {
-	height: 0px !important;
+    height: 0px !important;
 }
 
 .tab-background[selected] {
-	background-image: none !important;
+    background-image: none !important;
 }
 
 .tabbrowser-tab:not([selected]) {
-	font-size: 12px !important;
-	color: #eeeeee !important; /* Change this to a dark color if using a light theme */
-	background-color: #323232 !important; /* Might want to disable that if not using FF's dark theme */
+    font-size: 12px !important;
+    color: #eeeeee !important;
+    background-color: #323232 !important;
 }
 
 .tab-icon-image {
-	width: 12px !important;
-	height: 12px !important;
+    width: 12px !important;
+    height: 12px !important;
 }
 
 .tab:not([selected]) .tab-icon-image {
-       width: 12px !important;       
-       height: 12px !important;
+    width: 12px !important;       
+    height: 12px !important;
 }
 
-/* Url bar */
-
+/* URL bar */
 toolbox toolbarspring {
-	-moz-box-flex: 0 !important;
+    -moz-box-flex: 0 !important;
 }
 
 #urlbar {
-	min-height: var(--uc-bottom-toolbar-height) !important;
-	font-size: 12px !important;
-	margin-left: 0px !important;
+    min-height: var(--uc-bottom-toolbar-height) !important;
+    max-height: var(--uc-bottom-toolbar-height) !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #urlbar-background {
-	border: none !important;
-	box-shadow: none !important
+    border: none !important;
+    box-shadow: none !important;
 }
 
 #urlbar[breakout][breakout-extend] {
-	display: flex !important;
-	flex-direction: column-reverse;
-	bottom: 12px !important;
-	top: auto !important;
+    display: flex !important;
+    flex-direction: column-reverse;
+    bottom: 12px !important;
+    top: auto !important;
 }
 
 .urlbarView-body-inner {
-	border-top-style: none !important;
+    border-top-style: none !important;
 }
 
 #urlbar:not(:hover):not([breakout][breakout-extend]) > #urlbar-background {
-	box-shadow: none !important;
-	background: none !important;
+    box-shadow: none !important;
+    background: none !important;
 }
 
 #tracking-protection-icon-container {
-	padding: 2px 0px 2px 0px !important;
-	margin: 1px 0px 1px 0px !important;
+    padding: 2px 0px 2px 0px !important;
+    margin: 1px 0px 1px 0px !important;
 }
 
 #identity-box {
-	padding: 2px 0px 2px 0px !important;
-	margin: 1px 0px 1px 0px !important;
+    padding: 2px 0px 2px 0px !important;
+    margin: 1px 0px 1px 0px !important;
 }
 
-/* Hiding some url bar elements when not active. Credits to lr-tech on Github */
-
+/* Hiding some url bar elements when not active */
 .urlbar-icon, #userContext-indicator, #userContext-label {
-	fill: transparent !important;
-	background: transparent !important;
-	color: transparent !important;
+    fill: transparent !important;
+    background: transparent !important;
+    color: transparent !important;
 }
 
 #urlbar:hover .urlbar-icon,
 #urlbar:active .urlbar-icon,
 #urlbar[focused] .urlbar-icon {
-	fill: transparent !important;
+    fill: transparent !important;
 }
-
