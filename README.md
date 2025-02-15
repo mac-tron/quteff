@@ -21,6 +21,7 @@
   * Create userChrome.css inside and paste the code from above
   * Restart Firefox
 * Install the Vimium-ff add-on
+* Update the Vimium-ff CSS (optional)
 * Apply the urlbar `about:config` changes (optional)
 
 # Firefox URL Bar Customization
