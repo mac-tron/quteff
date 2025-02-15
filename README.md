@@ -21,7 +21,34 @@
   * Create userChrome.css inside and paste the code from above
   * Restart Firefox
 * Install the Vimium-ff add-on
+* Apply the urlbar about:config changes (optional)
 
+# Firefox URL Bar Customization
+
+This document details custom Firefox settings for enhancing the URL bar behavior.
+
+## How to Apply
+
+1. Open Firefox and navigate to `about:config`
+2. Accept the warning about modifying advanced preferences
+3. Search for each preference name
+4. Double-click the preference to modify its value
+5. Restart Firefox for changes to take full effect
+
+## Settings
+
+### Disable Rich Results in URL Bar
+
+browser.urlbar.maxRichResults = 0
+
+- Prevents the URL bar from showing rich preview cards and expanded results
+
+### Enable Inline Autocomplete
+
+browser.urlbar.autocomplete.inline = true
+
+- Enables inline autocompletion as you type in the URL bar
+  
 # quteFF vs hawtbrowser changelog
 
 <details>
