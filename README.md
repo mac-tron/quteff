@@ -23,7 +23,7 @@
 * Install the Vimium-ff add-on
 
 <details>
-<summary># quteFF vs hawtbrowser changelog</summary>
+<summary>Expand for full quteFF vs hawtbrowser changelog</summary>
 
 A comparison of changes between the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) and quteFF CSS.
 
@@ -113,4 +113,3 @@ padding: 0 !important;
 * Maintains compatibility with Firefox's dark theme
 
 </details>
-```
