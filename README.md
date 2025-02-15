@@ -12,16 +12,16 @@
 
 * Clone the repo
 * Enable userChrome.css customization:
-  * Go to about:config
-  * Set toolkit.legacyUserProfileCustomizations.stylesheets to true
+  * Go to `about:config`
+  * Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 * Add the CSS file:
-  * Go to about:profiles
+  * Go to `about:profiles`
   * Open your Root Directory folder
   * Create a folder named "chrome" if it doesn't exist
   * Create userChrome.css inside and paste the code from above
   * Restart Firefox
 * Install the Vimium-ff add-on
-* Apply the urlbar about:config changes (optional)
+* Apply the urlbar `about:config` changes (optional)
 
 # Firefox URL Bar Customization
 
