@@ -24,9 +24,9 @@
 * Update the Vimium-ff CSS (optional)
 * Apply the urlbar `about:config` changes (optional)
 
-# Firefox URL Bar Customization
+## Firefox URL Bar Customization
 
-You may want to disable Firefox's URL bar enhancements to simplify the UI and prevent rich results appearing. (Optional)
+Firefox uses a popup called "rich results" by default. You may want to disable this URL bar enhancement to simplify the UI. (Optional)
 
 ## How to Apply
 
@@ -36,9 +36,9 @@ You may want to disable Firefox's URL bar enhancements to simplify the UI and pr
 4. Double-click the preference to modify its value
 5. Restart Firefox for changes to take full effect
 
-## Firefox URL bar tweaks
+## Firefox URL bar tweaks (Optional)
 
-### Disable Rich Results in URL Bar
+### Disable Firefox Rich Results in URL Bar
 
 ```css
 browser.urlbar.maxRichResults = 0
@@ -54,10 +54,9 @@ browser.urlbar.autocomplete.inline = true
 
 - Enables inline autocompletion as you type in the URL bar
 
+## Matching Vimium-ff CSS (Optional)
 
-### Matching Vimium-ff CSS
-
-This can be optionally installed to match the theme by adding the .css to within the vimium-ff css options.
+This can be optionally installed to match the theme by adding the [vimium-ff.css](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) within the vimium-ff css options.
  
 # quteFF vs hawtbrowser changelog
 
