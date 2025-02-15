@@ -28,6 +28,7 @@ Follow these steps to install quteFF:
   * Create userChrome.css inside and paste the code from above
   * Restart Firefox
 * Install the Vimium-ff add-on
+* Configure New Tab URL in Vimium-ff to be `pages/blank.html` to enable the extension to work on New Tabs.
 
 ## Firefox URL Bar Customization
 
