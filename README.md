@@ -30,19 +30,14 @@ Follow these steps to install quteFF:
 * Install the Vimium-ff add-on
 * Configure New Tab URL in Vimium-ff to be `pages/blank.html` to enable the extension to work on New Tabs.
 
-## Firefox URL Bar Customization
+## Firefox URL Bar Customization (Optional)
 
 Firefox uses a popup called "rich results" by default. You may want to disable this URL bar enhancement to simplify the UI. (Optional)
-
-## How to Apply
-
 1. Open Firefox and navigate to `about:config`
 2. Accept the warning about modifying advanced preferences
 3. Search for each preference name
 4. Double-click the preference to modify its value
 5. Restart Firefox for changes to take full effect
-
-## Firefox URL bar tweaks (Optional)
 
 ### Disable Firefox Rich Results in URL Bar
 
