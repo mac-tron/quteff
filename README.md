@@ -5,8 +5,7 @@
 * Forked from https://github.com/IanLeCorbeau/hawtbrowser/
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/I-LeCorbeau/hawtbrowser/main/screenshots/hawtbrowser1.png">    
-<img src="https://raw.githubusercontent.com/I-LeCorbeau/hawtbrowser/main/screenshots/hawtbrowser2.png">
+<img src="<img width="1800" alt="image" src="https://github.com/user-attachments/assets/5f2e8bfc-2db8-41b7-a655-8b087569edde" />
 
 ## Usage
 * Clone the repo.    
