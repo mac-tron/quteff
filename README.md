@@ -25,7 +25,7 @@
 
 # Firefox URL Bar Customization
 
-This document details custom Firefox settings for enhancing the URL bar behavior.
+You may want to disable Firefox's URL bar enhancements to simplify the UI and prevent rich results appearing.
 
 ## How to Apply
 
