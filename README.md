@@ -36,7 +36,7 @@ You may want to disable Firefox's URL bar enhancements to simplify the UI and pr
 4. Double-click the preference to modify its value
 5. Restart Firefox for changes to take full effect
 
-## Settings
+## Firefox URL bar tweaks
 
 ### Disable Rich Results in URL Bar
 
