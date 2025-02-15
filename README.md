@@ -10,15 +10,21 @@
 ## Usage
 * Clone the repo.    
 
-* In Firefox, go to _about:config_, search for _toolkit.legacyUserProfileCustomizations.stylesheets_ and toggle it to __true__.
+* Enable userChrome.css customization:
 
-* Next go to _about:support_, and under "_Application Basics_", go to "_Profile Directory_" to find which profile you're using. You can either open the dir from the browser, of use the path to open yourself in your file manager.
+- Go to about:config
+- Set toolkit.legacyUserProfileCustomizations.stylesheets to true
 
-* Copy the _chrome_ directory into your profile's directory.
+
+* Add the CSS file:
+
+- Go to about:profiles
+- Open your Root Directory folder
+- Create a folder named "chrome" if it doesn't exist
+- Create userChrome.css inside and paste the code from above
+- Restart Firefox
 
 * Install the Vimium-ff add-on.    
-
-* Restart Firefox.
 
 # quteFF vs hawtbrowser changelog
 
