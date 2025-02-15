@@ -57,6 +57,8 @@ browser.urlbar.autocomplete.inline = true
 
 ### Matching Vimium-ff CSS
 
+This can be optionally installed to match the theme by adding the .css to within the vimium-ff css options.
+
 ```css
 /* Link hints */
 div > .vimiumHintMarker {
