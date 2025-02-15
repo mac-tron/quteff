@@ -1,7 +1,7 @@
 # quteFF
 
 * Custom userChrome.css to make Firefox look like Qutebrowser
-* This is meant to be used with the [Vimium-ff](https://github.com/philc/vimium/) add-on
+* Requires the [Vimium-ff](https://github.com/philc/vimium/) add-on
 * Forked from https://github.com/IanLeCorbeau/hawtbrowser/
 
 ## Screenshots
