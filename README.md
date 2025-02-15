@@ -25,7 +25,7 @@
 
 # Firefox URL Bar Customization
 
-You may want to disable Firefox's URL bar enhancements to simplify the UI and prevent rich results appearing.
+You may want to disable Firefox's URL bar enhancements to simplify the UI and prevent rich results appearing. (Optional)
 
 ## How to Apply
 
