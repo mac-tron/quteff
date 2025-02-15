@@ -8,7 +8,7 @@
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/5f2e8bfc-2db8-41b7-a655-8b087569edde" />
 
-## Usage
+## Installation
 
 * Clone the repo
 * Enable userChrome.css customization:
@@ -53,6 +53,168 @@ browser.urlbar.autocomplete.inline = true
 ```
 
 - Enables inline autocompletion as you type in the URL bar
+
+
+### Matching Vimium-ff CSS
+
+```css
+/* Link hints */
+div > .vimiumHintMarker {
+    background: #000000;
+    border: 1px solid #B933E1;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+div > .vimiumHintMarker span {
+    color: #eeeeee;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+div > .vimiumHintMarker > .matchingCharacter {
+    color: #B933E1;
+}
+
+/* Vomnibar */
+#vomnibar {
+    background-color: #000000;
+    border: 1px solid #B933E1;
+    box-shadow: none;
+}
+
+#vomnibar input {
+    color: #eeeeee;
+    font-size: 12px;
+    background-color: #000000;
+    border: none;
+    padding: 4px;
+}
+
+#vomnibar ul {
+    background-color: #000000;
+}
+
+#vomnibar li {
+    border-bottom: 1px solid #323232;
+    padding: 4px;
+}
+
+#vomnibar li .vomnibarTitle {
+    color: #eeeeee;
+}
+
+#vomnibar li .vomnibarUrl {
+    color: #B933E1;
+}
+
+#vomnibar li.vomnibarSelected {
+    background-color: #323232;
+}
+
+/* HUD (Heads-up-display) */
+div.vimiumHUD {
+    background-color: #000000 !important;
+    border: 1px solid #B933E1 !important;
+    box-shadow: none !important;
+}
+
+div.vimiumHUD .hud-find {
+    background: #000000 !important;
+    border: 1px solid #B933E1 !important;
+}
+
+div.vimiumHUD .vimiumHUDSearchAreaInner {
+    color: #eeeeee !important;
+    font-family: monospace !important;
+    font-size: 12px !important;
+    background-color: #000000 !important;
+    border: none !important;
+}
+
+div.vimiumHUD .vimiumHUDSearchArea {
+    background-color: #000000 !important;
+    color: #eeeeee !important;
+}
+
+div.vimiumHUD input {
+    color: #eeeeee !important;
+    background-color: #000000 !important;
+}
+
+div.vimiumHUD #hud-find-input {
+    color: #eeeeee !important;
+    background-color: #000000 !important;
+}
+
+/* Find Input Box */
+.vimiumFindBar {
+    background-color: #000000 !important;
+    border: 1px solid #B933E1 !important;
+    box-shadow: none !important;
+}
+
+.vimiumFindBar input {
+    background-color: #000000 !important;
+    color: #eeeeee !important;
+    border: none !important;
+    font-size: 12px !important;
+}
+
+.vimiumFindBar .no-matches {
+    color: #666666 !important;
+}
+
+/* Help Dialog */
+div#vimiumHelpDialogContainer {
+    opacity: 1.0 !important;
+    background-color: #000000 !important;
+    border: 1px solid #B933E1 !important;
+    border-radius: 0 !important;
+    width: 840px !important;
+    max-width: calc(100% - 100px) !important;
+    max-height: calc(100% - 100px) !important;
+    margin: 50px auto !important;
+    color: #eeeeee !important;
+}
+
+div#vimiumHelpDialog {
+    background-color: #000000 !important;
+    color: #eeeeee !important;
+}
+
+div#vimiumHelpDialog a {
+    color: #B933E1 !important;
+}
+
+div#vimiumHelpDialog td {
+    color: #eeeeee !important;
+}
+
+div#vimiumHelpDialog th {
+    color: #B933E1 !important;
+}
+
+/* Generic input styling */
+.vimiumReset input {
+    background-color: #000000 !important;
+    color: #eeeeee !important;
+    border: 1px solid #B933E1 !important;
+    box-shadow: none !important;
+}
+
+.vimiumReset input[type="text"] {
+    color: #eeeeee !important;
+    background-color: #000000 !important;
+    border: none !important;
+    font-size: 12px !important;
+}
+
+.vimiumReset .no-matches {
+    color: #666666 !important;
+}
+```
+
   
 # quteFF vs hawtbrowser changelog
 
