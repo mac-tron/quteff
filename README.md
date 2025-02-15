@@ -57,7 +57,7 @@ browser.urlbar.autocomplete.inline = true
 
 ## Matching Vimium-ff CSS (Optional)
 
-This can be optionally installed to match the theme by adding the [vimium-ff.css](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) within the vimium-ff css options.
+Matching Vimium theme using [vimium-ff.css](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) can be added to the vimium-ff css options.
  
 # quteFF vs hawtbrowser changelog
 
