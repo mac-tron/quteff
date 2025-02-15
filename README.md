@@ -39,13 +39,17 @@ This document details custom Firefox settings for enhancing the URL bar behavior
 
 ### Disable Rich Results in URL Bar
 
+```css
 browser.urlbar.maxRichResults = 0
+```
 
 - Prevents the URL bar from showing rich preview cards and expanded results
 
 ### Enable Inline Autocomplete
 
+```css
 browser.urlbar.autocomplete.inline = true
+```
 
 - Enables inline autocompletion as you type in the URL bar
   
