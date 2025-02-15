@@ -10,6 +10,13 @@
 
 ## Installation
 
+Follow these steps to install quteFF:
+* [Basic Setup](#basic-setup) - Enable customization and add CSS
+* [Firefox URL Bar Customization](#firefox-url-bar-customization) - Optional URL bar tweaks
+* [Vimium-FF Theme](#matching-vimium-ff-css-optional) - Optional CSS for Vimium
+
+### Basic Setup
+
 * Clone the repo
 * Enable userChrome.css customization:
   * Go to `about:config`
@@ -21,8 +28,6 @@
   * Create userChrome.css inside and paste the code from above
   * Restart Firefox
 * Install the Vimium-ff add-on
-* Update the Vimium-ff CSS (optional)
-* Apply the urlbar `about:config` changes (optional)
 
 ## Firefox URL Bar Customization
 
