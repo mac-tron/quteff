@@ -22,8 +22,10 @@
   * Restart Firefox
 * Install the Vimium-ff add-on
 
+# quteFF vs hawtbrowser changelog
+
 <details>
-<summary>Expand for full quteFF vs hawtbrowser changelog</summary>
+<summary>Expand for full changelog</summary>
 
 A comparison of changes between the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) and quteFF CSS.
 
