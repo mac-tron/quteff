@@ -28,6 +28,7 @@ Follow these steps to install quteFF:
 * [Basic Setup](#basic-setup) - Enable customization and add CSS
 * [Firefox URL Bar Customization](#firefox-url-bar-customization) - Optional URL bar tweaks
 * [Vimium-FF Theme](#matching-vimium-ff-css-optional) - Optional CSS for Vimium
+* [New Tab Override](https://github.com/cadeyrn/newtaboverride) installation and configuration - Optional
 
 ### Basic Setup
 
@@ -72,6 +73,14 @@ browser.urlbar.autocomplete.inline = true
 ## Matching Vimium-ff CSS (Optional)
 
 Matching Vimium theme using [vimium-ff.css](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) can be added to the vimium-ff css options.
+
+## New Tab Override (Optional)
+
+Vimium does not work on protected tabs, such as New Tabs. Whilst this is can be modified it allows all plug-ins to run in protected tabs which is not ideal.
+New Tab Override enables a custom web page to be set as a "New Tab", therefore enabling Vimium functionality. Whilst Vimium has the ability to set a blank page as a New Tab, it does not cover the edge case where all tabs are closed and Firefox reloads which creates a New Tab (solved with this method).
+
+![CleanShot 2025-02-17 at 10 23 01@2x](https://github.com/user-attachments/assets/1168b80d-e001-4299-af44-9369e482b4bb)
+
  
 # quteFF vs hawtbrowser changelog
 
