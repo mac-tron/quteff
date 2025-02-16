@@ -1,5 +1,7 @@
 # quteFF
 
+[Qutebrowser](https://www.qutebrowser.org/) is an open source keyboard driven browser, however it lacks broad plug-in / extension support. This project aims to implement a Qutebrowser-like UX and provide keyboard capabilities via Vimium-ff with a customised Vimium-ff theme.
+
 * Custom userChrome.css to make Firefox look like Qutebrowser
 * Requires the [Vimium-ff](https://github.com/philc/vimium/) add-on
 * Forked from https://github.com/IanLeCorbeau/hawtbrowser/
