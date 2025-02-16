@@ -8,9 +8,14 @@
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/5f2e8bfc-2db8-41b7-a655-8b087569edde" />
 
-* Vomnibar with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
+* Vimium-ff HUD vomnibar with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
+
+* Vimium-ff HUD with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
+
+<img width="1800" alt="image" src="https://github.com/user-attachments/assets/e5f320f7-cbec-4ebe-92a8-e214c59b2532" />
+
 
 # Installation
 
