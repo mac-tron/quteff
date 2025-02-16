@@ -4,7 +4,7 @@
 
 * Custom userChrome.css to make Firefox look like Qutebrowser [forked](https://github.com/IanLeCorbeau/hawtbrowser/)
 * Requires the [Vimium-ff](https://github.com/philc/vimium/) add-on
-* vomnibox .css code [forked](https://github.com/okaihe/vomnibar-custom-css)
+* Vimium vomnibox .css code [forked](https://github.com/okaihe/vomnibar-custom-css)
 * Uses [New Tab Override](https://github.com/cadeyrn/newtaboverride) to enable New Tabs to load a webpage, which maintains Viumum functionality
 
 ## Screenshots
