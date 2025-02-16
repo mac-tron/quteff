@@ -3,6 +3,7 @@
 * Custom userChrome.css to make Firefox look like Qutebrowser
 * Requires the [Vimium-ff](https://github.com/philc/vimium/) add-on
 * Forked from https://github.com/IanLeCorbeau/hawtbrowser/
+* Vimium vomnibox theme theme matched from https://github.com/okaihe/vomnibar-custom-css
 
 ## Screenshots
 
