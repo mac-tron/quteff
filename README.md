@@ -17,6 +17,10 @@
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
 
+* Link navigation
+
+<img width="1800" alt="image" src="https://github.com/user-attachments/assets/3db4cf36-edf3-4aff-80aa-6c78d4ab963b" />
+
 * Vimium-ff HUD with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
 
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/e5f320f7-cbec-4ebe-92a8-e214c59b2532" />
