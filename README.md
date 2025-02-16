@@ -10,7 +10,7 @@
 
 * Vomnibar with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
 
-<img width="1800" alt="image" src=https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
+<img width="1800" alt="image" src="https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
 
 # Installation
 
