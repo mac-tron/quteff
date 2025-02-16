@@ -9,8 +9,8 @@
 <img width="1800" alt="image" src="https://github.com/user-attachments/assets/5f2e8bfc-2db8-41b7-a655-8b087569edde" />
 
 * Vomnibar with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
-![CleanShot 2025-02-17 at 09 58 54@2x](https://github.com/user-attachments/assets/16b50da1-c6be-4814-a461-3a285a8819ac)
 
+<img width="1800" alt="image" src=https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
 
 # Installation
 
