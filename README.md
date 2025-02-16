@@ -19,7 +19,7 @@
 
 * Link navigation
 
-<img width="1800" alt="image" src="https://github.com/user-attachments/assets/3db4cf36-edf3-4aff-80aa-6c78d4ab963b" />
+<img width="1800" alt="image" src="https://github.com/user-attachments/assets/9d970671-e209-40e5-950e-cb7ff8708ba5" />
 
 * Vimium-ff HUD with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
 
