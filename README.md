@@ -2,10 +2,10 @@
 
 [Qutebrowser](https://www.qutebrowser.org/) is an open source keyboard driven browser, however it lacks broad plug-in / extension support. This project aims to implement a Qutebrowser-like UX and provide keyboard capabilities via Vimium-ff with a customised Vimium-ff theme.
 
-* Custom userChrome.css to make Firefox look like Qutebrowser [forked](https://github.com/IanLeCorbeau/hawtbrowser/)
-* Requires the [Vimium-ff](https://github.com/philc/vimium/) add-on
-* Vimium vomnibox .css code [forked](https://github.com/okaihe/vomnibar-custom-css)
-* Uses [New Tab Override](https://github.com/cadeyrn/newtaboverride) to enable New Tabs to load a webpage, which maintains Viumum functionality
+* Required: Custom userChrome.css to make Firefox look like Qutebrowser [forked](https://github.com/IanLeCorbeau/hawtbrowser/)
+* Required: [Vimium-ff](https://github.com/philc/vimium/) add-on
+* Optional: Vimium vomnibox .css code [forked](https://github.com/okaihe/vomnibar-custom-css)
+* Optional: [New Tab Override](https://github.com/cadeyrn/newtaboverride) to enable New Tabs to load a webpage, which maintains Viumum functionality
 
 ## Screenshots
 
