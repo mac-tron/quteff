@@ -60,12 +60,6 @@ Key improvements over the original [hawtbrowser](https://github.com/IanLeCorbeau
 - Enhanced tab highlighting with purple accents
 - Standardized spacing and alignment
 
-### Technical Updates
-- Added aspect-ratio properties for better scaling
-- Improved icon containment and scaling
-- Enhanced extension button layout
-- Standardized height variable usage
-
 </details>
 
 ## Related projects
