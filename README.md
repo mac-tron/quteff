@@ -68,7 +68,7 @@ Key improvements over the original [hawtbrowser](https://github.com/IanLeCorbeau
 
 </details>
 
-## References
+## Related projects
 
 This project builds upon and is influenced by the following open-source projects:
 
