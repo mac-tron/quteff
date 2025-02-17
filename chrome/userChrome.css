@@ -238,6 +238,8 @@ toolbox toolbarspring {
     fill: transparent !important;
 }
 
+/* Download button color */
+
 #downloads-button {
   fill: #9059FF !important;
 }
