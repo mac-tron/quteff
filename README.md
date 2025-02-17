@@ -72,10 +72,10 @@ browser.urlbar.autocomplete.inline = true
 ```
 Enables inline URL completion as you type
 
-## Technical Details
+## Changes from hawtbrowser
 
 <details>
-<summary>Changes from hawtbrowser</summary>
+<summary>Expand for summary</summary>
 
 Key improvements over the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) theme:
 
