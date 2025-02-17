@@ -7,8 +7,7 @@ quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard
 
 - Clean, minimal interface styled to match Qutebrowser
 - Full keyboard navigation via Vimium-FF
-- Customizable HUD and command interface
-- Optional New Tab page integration
+- Themed Vimium config
 
 ## Screenshots
 
