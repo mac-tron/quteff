@@ -11,7 +11,7 @@ Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minim
 
 ## Preview
 
-### Qute influenced simple UI
+### Qutebrowser influenced UI
 ![Minimal Browser Interface](https://github.com/user-attachments/assets/f5be697d-4815-48fa-97c1-9ffed6c3015c)
 
 ### Command Mode
