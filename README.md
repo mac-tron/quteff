@@ -50,6 +50,10 @@ quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard
    browser.urlbar.autocomplete.inline = true
    ```
 
+4. **Dark Theme**
+   
+   - Apply [Dark Theme](https://github.com/nicoth-in/Dark-Space-Theme)
+
 ## Changes from hawtbrowser
 
 <details>
