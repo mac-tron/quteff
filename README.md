@@ -81,8 +81,8 @@ Matching Vimium theme using [vimium-ff.css](https://github.com/mac-tron/quteff/b
 
 ## New Tab Override (Optional)
 
-Vimium does not work on protected tabs, such as New Tabs. Whilst this is can be modified it allows all plug-ins to run in protected tabs which is not ideal.
-New Tab Override enables a custom web page to be set as a "New Tab", therefore enabling Vimium functionality. Whilst Vimium has the ability to set a blank page as a New Tab, it does not cover the edge case where all tabs are closed and Firefox reloads which creates a New Tab (solved with this method).
+Vimium is disabled on protected tabs, including New Tab pages. While this restriction can be bypassed, doing so allows all extensions to run on protected tabs, creating potential security risks.
+New Tab Override offers a solution by letting you set a custom webpage as your "New Tab" page, which enables Vimium functionality. This approach is particularly useful because while Vimium can set a blank page as your New Tab, it doesn't handle the scenario where Firefox creates a New Tab after all tabs are closed and the browser reloads.
 
 ![CleanShot 2025-02-17 at 10 23 01@2x](https://github.com/user-attachments/assets/1168b80d-e001-4299-af44-9369e482b4bb)
 
