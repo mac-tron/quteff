@@ -1,182 +1,107 @@
 # quteFF
 
-[Qutebrowser](https://www.qutebrowser.org/) is an open source keyboard driven browser, however it lacks broad plug-in / extension support. This project aims to implement a Qutebrowser-like UX and provide keyboard capabilities via Vimium-ff with a customised Vimium-ff theme.
+Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minimal interface. quteFF combines custom CSS theming with Vimium-FF's to create a cohesive keyboard driven browsing experience.
 
-* Required: Custom userChrome.css to make Firefox look like Qutebrowser [forked](https://github.com/IanLeCorbeau/hawtbrowser/)
-* Required: [Vimium-ff](https://github.com/philc/vimium/) plug-in
-* Optional: Vimium vomnibox .css code [forked](https://github.com/okaihe/vomnibar-custom-css)
-* Optional: [New Tab Override](https://github.com/cadeyrn/newtaboverride) plug-in to enable New Tabs to load a webpage, which maintains Viumum functionality
+## Features
 
-## Screenshots
+- Clean, minimal interface styled to match Qutebrowser
+- Full keyboard navigation via Vimium-FF
+- Customizable HUD and command interface
+- Optional New Tab page integration
 
-* quteFF userChrome.css customisation UX
+## Preview
 
-<img width="1800" alt="image" src="https://github.com/user-attachments/assets/f5be697d-4815-48fa-97c1-9ffed6c3015c" />
+### Qute influenced simple UI
+![Minimal Browser Interface](https://github.com/user-attachments/assets/f5be697d-4815-48fa-97c1-9ffed6c3015c)
 
-* Vimium-ff HUD vomnibar with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
+### Command Mode
+![Vimium Command Interface](https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad)
 
-<img width="1800" alt="image" src="https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad" />
+### Link Navigation
+![Link Hints](https://github.com/user-attachments/assets/9d970671-e209-40e5-950e-cb7ff8708ba5)
 
-* Link navigation
+### HUD Display
+![Heads Up Display](https://github.com/user-attachments/assets/e5f320f7-cbec-4ebe-92a8-e214c59b2532)
 
-<img width="1800" alt="image" src="https://github.com/user-attachments/assets/9d970671-e209-40e5-950e-cb7ff8708ba5" />
+## Installation
 
-* Vimium-ff HUD with customised [Vimium-FF Theme](#matching-vimium-ff-css-optional) 
+### Required Components
 
-<img width="1800" alt="image" src="https://github.com/user-attachments/assets/e5f320f7-cbec-4ebe-92a8-e214c59b2532" />
+1. **Enable Custom CSS**
+   - Navigate to `about:config`
+   - Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 
+2. **Install CSS Theme**
+   - Go to `about:profiles`
+   - Open your Root Directory
+   - Create a `chrome` folder if it doesn't exist
+   - Create `userChrome.css` and paste the provided CSS code
+   - Restart Firefox
 
-# Installation
+3. **Install Vimium-FF**
+   - Install from the [official repository](https://github.com/philc/vimium/)
 
-Follow these steps to install quteFF:
-* [Basic Setup](#basic-setup) - Enable customization and add CSS
-* [Firefox URL Bar Customization](#firefox-url-bar-customization) - Optional URL bar tweaks
-* [Vimium-FF Theme](#matching-vimium-ff-css-optional) - Optional CSS for Vimium
-* [New Tab Override](https://github.com/cadeyrn/newtaboverride) installation and configuration - Optional
+### Optional Enhancements
 
-### Basic Setup
+1. **Custom Vimium Theme**
+   - Apply the [provided CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium-FF settings
 
-* Clone the repo
-* Enable userChrome.css customization:
-  * Go to `about:config`
-  * Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
-* Add the CSS file:
-  * Go to `about:profiles`
-  * Open your Root Directory folder
-  * Create a folder named "chrome" if it doesn't exist
-  * Create userChrome.css inside and paste the code from above
-  * Restart Firefox
-* Install the Vimium-ff plug-in
-* Optional: add the vimium customised .css 
-* Optional: add and configure [New Tab Override](https://github.com/cadeyrn/newtaboverride) to enable the extension to work on New Tabs
+2. **New Tab Override**
+   - Install [New Tab Override](https://github.com/cadeyrn/newtaboverride)
+   - Configure the following settings:
+     
+     **a. Custom URL**
+     - Set to: `https://mac-tron.github.io/quteff/`
+     - Only `http://` or `https://` URLs are supported
+     - For local files, use a local web server (e.g., MAMP, XAMPP)
+     
+     **b. Focus Behavior**
+     - Enable: "Set focus to the web page instead of the address bar"
+     - Improves keyboard navigation by focusing on content immediately
 
-## Firefox URL Bar Customization (Optional)
+## URL Bar Customization
 
-Firefox uses a popup called "rich results" by default. You may want to disable this URL bar enhancement to simplify the UI. (Optional)
-1. Open Firefox and navigate to `about:config`
-2. Accept the warning about modifying advanced preferences
-3. Search for each preference name
-4. Double-click the preference to modify its value
-5. Restart Firefox for changes to take full effect
+Enhance the URL bar experience with these optional tweaks:
 
-### Disable Firefox Rich Results in URL Bar
-
-```css
+### Simplified Results
+```
 browser.urlbar.maxRichResults = 0
 ```
+Disables rich preview cards in URL bar results
 
-- Prevents the URL bar from showing rich preview cards and expanded results
-
-### Enable Inline Autocomplete
-
-```css
+### Smart Autocomplete
+```
 browser.urlbar.autocomplete.inline = true
 ```
+Enables inline URL completion as you type
 
-- Enables inline autocompletion as you type in the URL bar
-
-## Matching Vimium-ff CSS (Optional)
-
-Matching Vimium theme using [vimium-ff.css](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) can be added to the vimium-ff css options.
-
-## New Tab Override (Optional)
-
-Vimium is disabled on protected tabs, including New Tab pages. While this restriction can be bypassed, doing so allows all extensions to run on protected tabs, creating potential security risks.
-New Tab Override offers a solution by letting you set a custom webpage as your "New Tab" page, which enables Vimium functionality. This approach is particularly useful because while Vimium can set a blank page as your New Tab, it doesn't handle the scenario where Firefox creates a New Tab after all tabs are closed and the browser reloads.
-
-![CleanShot 2025-02-17 at 10 23 01@2x](https://github.com/user-attachments/assets/1168b80d-e001-4299-af44-9369e482b4bb)
-
- 
-# quteFF vs hawtbrowser changelog
+## Technical Details
 
 <details>
-<summary>Expand for full changelog</summary>
-<br>
-A comparison of changes between the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) and quteFF CSS.
+<summary>Changes from hawtbrowser</summary>
 
-## Navigation Bar Changes
+Key improvements over the original [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) theme:
 
-### Toolbar Height and Positioning
-```css
-max-height: var(--uc-bottom-toolbar-height) !important;
-padding: 0 !important;
-margin: 0 !important;
-```
+### Interface Refinements
+- Consistent toolbar and button sizing
+- Improved extension icon handling
+- Enhanced tab highlighting with purple accents
+- Standardized spacing and alignment
 
-### Toolbar Buttons
-```css
-aspect-ratio: 1 !important;
-object-fit: contain !important;
-max-height: var(--uc-bottom-toolbar-height) !important;
-padding: 0 !important;
-margin: 0 1px !important;
-```
-
-### Extension Area Styling
-```css
-.webextension-browser-action {
-    filter: grayscale(100%) brightness(0.8) !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 16px !important;
-    height: 16px !important;
-    aspect-ratio: 1 !important;
-}
-
-.webextension-browser-action .toolbarbutton-icon {
-    width: 12px !important;
-    height: 12px !important;
-    padding: 0 !important;
-    margin: 0 2px !important;
-    aspect-ratio: 1 !important;
-    object-fit: contain !important;
-}
-
-#unified-extensions-area {
-    display: flex !important;
-    align-items: center !important;
-    height: var(--uc-bottom-toolbar-height) !important;
-    gap: 2px !important;
-}
-
-#unified-extensions-button .toolbarbutton-icon {
-    filter: grayscale(100%) brightness(0.8) !important;
-}
-```
-
-### Selected Tab Appearance
-```css
-background-color: #000000 !important;
-border: 1px solid #B933E1 !important;
-border-bottom: none !important;
-```
-
-### URL Bar Modifications
-```css
-min-height: var(--uc-bottom-toolbar-height) !important;
-max-height: var(--uc-bottom-toolbar-height) !important;
-margin: 0 !important;
-padding: 0 !important;
-```
-
-## Technical Improvements
-
-1. Added aspect-ratio properties throughout for better scaling behavior
-2. Added object-fit constraints for icons to prevent distortion
-3. Improved extension button layout and appearance
-4. More consistent use of height variables
-
-## Visual Changes
-
-* Selected tabs now have a purple border (`#B933E1`)
-* Selected tabs use pure black background (changed from `#242424`)
-* Extensions are grayscaled and slightly dimmed
-* More consistent icon sizing and spacing
-
-## Notes
-
-* Core functionality remains the same as hawtbrowser
-* Focus on improving scaling, consistency, and extension support
-* Maintains compatibility with Firefox's dark theme
+### Technical Updates
+- Added aspect-ratio properties for better scaling
+- Improved icon containment and scaling
+- Enhanced extension button layout
+- Standardized height variable usage
 
 </details>
+
+## References
+
+This project builds upon and is influenced by the following open-source projects:
+
+- [Qutebrowser](https://www.qutebrowser.org/) - Original inspiration for the keyboard-driven interface
+- [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) - Base Firefox CSS customization
+- [Vimium-FF](https://github.com/philc/vimium/) - Keyboard navigation extension
+- [New Tab Override](https://github.com/cadeyrn/newtaboverride) - New tab page customization
+- [Vimium Custom CSS](https://github.com/okaihe/vomnibar-custom-css) - Vomnibar styling reference
