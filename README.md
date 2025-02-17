@@ -69,7 +69,7 @@ Key improvements over the original [hawtbrowser](https://github.com/IanLeCorbeau
 
 ## Related projects
 
-This project builds upon and is influenced by the following open-source projects:
+This project builds upon and is influenced or utilises the following open-source projects:
 
 - [Qutebrowser](https://www.qutebrowser.org/) - Original inspiration for the keyboard-driven interface
 - [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) - Base Firefox CSS customization
