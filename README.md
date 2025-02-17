@@ -1,6 +1,6 @@
 # quteFF
 
-Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minimal interface. quteFF combines custom CSS theming with Vimium-FF's to create a cohesive keyboard driven browsing experience.
+A Firefox customization that implements keyboard-focused navigation, drawing inspiration from Qutebrowser's minimalist design. quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard-driven browsing.
 
 ## Features
 
@@ -9,19 +9,9 @@ Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minim
 - Customizable HUD and command interface
 - Optional New Tab page integration
 
-## Preview
+## Screenshots
 
-### Qutebrowser influenced UI
-![Minimal Browser Interface](https://github.com/user-attachments/assets/f5be697d-4815-48fa-97c1-9ffed6c3015c)
-
-### Command Mode (vomnibox)
-![Vimium Command Interface](https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad)
-
-### Link Navigation
-![Link Hints](https://github.com/user-attachments/assets/9d970671-e209-40e5-950e-cb7ff8708ba5)
-
-### HUD Display
-![Heads Up Display](https://github.com/user-attachments/assets/e5f320f7-cbec-4ebe-92a8-e214c59b2532)
+![quteff-screenshots](https://github.com/user-attachments/assets/46e689ef-b973-4f9d-bbc6-c48925ca2c99)
 
 ## Installation
 
