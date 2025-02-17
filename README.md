@@ -14,7 +14,7 @@ Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minim
 ### Qutebrowser influenced UI
 ![Minimal Browser Interface](https://github.com/user-attachments/assets/f5be697d-4815-48fa-97c1-9ffed6c3015c)
 
-### Command Mode
+### Command Mode (vomnibox)
 ![Vimium Command Interface](https://github.com/user-attachments/assets/2fbc341f-d27e-4722-bc42-7f3351f169ad)
 
 ### Link Navigation
