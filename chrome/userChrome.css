@@ -237,3 +237,7 @@ toolbox toolbarspring {
 #urlbar[focused] .urlbar-icon {
     fill: transparent !important;
 }
+
+#downloads-button {
+  fill: #9059FF !important;
+}
