@@ -52,12 +52,10 @@ Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minim
      
      **a. Custom URL**
      - Set to: `https://mac-tron.github.io/quteff/`
-     - Only `http://` or `https://` URLs are supported
-     - For local files, use a local web server (e.g., MAMP, XAMPP)
      
      **b. Focus Behavior**
      - Enable: "Set focus to the web page instead of the address bar"
-     - Improves keyboard navigation by focusing on content immediately
+     - (Improves keyboard navigation by focusing on content immediately)
 
 ## URL Bar Customization
 
