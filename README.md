@@ -14,53 +14,43 @@ A Firefox customization that implements keyboard-focused navigation, drawing ins
 ![quteff-screenshots](https://github.com/user-attachments/assets/46e689ef-b973-4f9d-bbc6-c48925ca2c99)
 
 ## Installation
+# Firefox Keyboard-Centric Setup
+
+Quick setup guide for keyboard-focused browsing in Firefox.
+
+## Installation
 
 ### Required Components
 
 1. **Enable Custom CSS**
-   - Navigate to `about:config`
+   - Open `about:config`
    - Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 
 2. **Install CSS Theme**
-   - Go to `about:profiles`
-   - Open your Root Directory
-   - Create a `chrome` folder if it doesn't exist
-   - Create `userChrome.css` and paste the provided CSS code
+   - Open `about:profiles`
+   - Find Root Directory
+   - Create `chrome` folder
+   - Create `userChrome.css` and paste theme code
    - Restart Firefox
 
 3. **Install Vimium-FF**
-   - Install from the [official repository](https://github.com/philc/vimium/)
+   - Install from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/vimium-ff/)
 
-### Optional Enhancements
+### Optional Components
 
-1. **Custom Vimium Theme**
-   - Apply the [provided CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium-FF settings
+1. **Vimium Theme**
+   - Apply [this CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium settings
 
-2. **New Tab Override**
-   - Install [New Tab Override](https://github.com/cadeyrn/newtaboverride) then configure;
-     
-     **a. Custom URL**
-     - Custom URL: `https://mac-tron.github.io/quteff/`
-     
-     **b. Set focus**
-     - Enable: "Set focus to the web page instead of the address bar"
-     - (Improves keyboard navigation by focusing on content immediately)
+2. **New Tab Page**
+   - Install [New Tab Override](https://addons.mozilla.org/firefox/addon/new-tab-override/)
+   - Set URL: `https://mac-tron.github.io/quteff/`
+   - Enable "Set focus to web page"
 
-## URL Bar Customization
-
-Enhance the URL bar experience with these optional tweaks:
-
-### Simplified Results
-```
-browser.urlbar.maxRichResults = 0
-```
-Disables rich preview cards in URL bar results
-
-### Smart Autocomplete
-```
-browser.urlbar.autocomplete.inline = true
-```
-Enables inline URL completion as you type
+3. **URL Bar Tweaks**
+   ```
+   browser.urlbar.maxRichResults = 0
+   browser.urlbar.autocomplete.inline = true
+   ```
 
 ## Changes from hawtbrowser
 
