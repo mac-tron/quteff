@@ -75,4 +75,4 @@ This project builds upon and is influenced by the following open-source projects
 - [hawtbrowser](https://github.com/IanLeCorbeau/hawtbrowser) - Base Firefox CSS customization
 - [Vimium-FF](https://github.com/philc/vimium/) - Keyboard navigation extension
 - [New Tab Override](https://github.com/cadeyrn/newtaboverride) - New tab page customization
-- [Vimium Custom CSS](https://github.com/okaihe/vomnibar-custom-css) - Vomnibar styling reference
+- [Vimium vomnibar CSS](https://github.com/okaihe/vomnibar-custom-css) - Vomnibar styling reference
