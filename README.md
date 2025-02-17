@@ -14,7 +14,6 @@ A Firefox customization that implements keyboard-focused navigation, drawing ins
 ![quteff-screenshots](https://github.com/user-attachments/assets/46e689ef-b973-4f9d-bbc6-c48925ca2c99)
 
 ## Installation
-# Firefox Keyboard-Centric Setup
 
 Quick setup guide for keyboard-focused browsing in Firefox.
 
