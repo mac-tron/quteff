@@ -32,7 +32,7 @@ quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard
 # Optional Components
 
 1. **Vimium Theme**
-   - Apply [this CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium settings
+   - Color matched and improved UI [css theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium settings
 
 2. **New Tab Page**
    - Install [New Tab Override](https://addons.mozilla.org/firefox/addon/new-tab-override/)
