@@ -29,7 +29,7 @@ quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard
 3. **Install Vimium-FF**
    - Install from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/vimium-ff/)
 
-# Optional Install
+# Optional Components
 
 1. **Vimium Theme**
    - Apply [this CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium settings
