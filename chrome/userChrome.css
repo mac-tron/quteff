@@ -238,8 +238,12 @@ toolbox toolbarspring {
     fill: transparent !important;
 }
 
-/* Download button color */
-
+/* Default state - no downloads */
 #downloads-button {
+  fill: var(--toolbarbutton-icon-fill) !important;
+}
+
+/* Only apply purple color when downloads are completed */
+#downloads-button[progress="done"] {
   fill: #9059FF !important;
 }
