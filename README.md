@@ -15,10 +15,6 @@ A Firefox customization that implements keyboard-focused navigation, drawing ins
 
 ## Installation
 
-Quick setup guide for keyboard-focused browsing in Firefox.
-
-## Installation
-
 ### Required Components
 
 1. **Enable Custom CSS**
