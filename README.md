@@ -42,6 +42,7 @@ quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard
    - Enable "Set focus to web page"
 
 3. **URL Bar Tweaks**
+   - Open `about:config`
    ```
    browser.urlbar.maxRichResults = 0
    browser.urlbar.autocomplete.inline = true
