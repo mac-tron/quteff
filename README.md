@@ -47,13 +47,12 @@ Transform Firefox into a keyboard-driven browser inspired by Qutebrowser's minim
    - Apply the [provided CSS theme](https://github.com/mac-tron/quteff/blob/main/vimium-ff.css) in Vimium-FF settings
 
 2. **New Tab Override**
-   - Install [New Tab Override](https://github.com/cadeyrn/newtaboverride)
-   - Configure the following settings:
+   - Install [New Tab Override](https://github.com/cadeyrn/newtaboverride) then configure;
      
      **a. Custom URL**
-     - Set to: `https://mac-tron.github.io/quteff/`
+     - Custom URL: `https://mac-tron.github.io/quteff/`
      
-     **b. Focus Behavior**
+     **b. Set focus**
      - Enable: "Set focus to the web page instead of the address bar"
      - (Improves keyboard navigation by focusing on content immediately)
 
