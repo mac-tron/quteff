@@ -1,7 +1,7 @@
 # quteFF
 
 A Firefox customization that implements keyboard-focused navigation, drawing inspiration from Qutebrowser's minimalist design.
-quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard-driven browsing, with the ecosystem of Firefox add-ons.
+quteFF integrates custom CSS styling with Vimium-FF to enable efficient keyboard-driven browsing.
 
 ## Features
 
